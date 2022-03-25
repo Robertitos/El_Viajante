@@ -29,8 +29,13 @@ Otro asunto que nos ha retrasado bastante ha sido el de la creación de la main 
 La función que nos permite trazar la combinación más optima fijando como valores las distancias entre ciudades así como las propias ciudades.
 Como último aspecto, también mencionar que hemos sufrido problemas organizativos en nuestra dinámica de grupo, debido a la inexperiencia que tenemos con estas tecnologías.
 
+Problemas y soluciones 
+
+Tuvimos problemas al tratar de conseguir las permutaciones porque imprimia la misma posicion del indice continuamente. Logramos solucionarlo usando las copias generadas por la funcion de permutacion en vez de el indice en si.
+Para imprimir la distancia tuvimos un error de formula ya que habiamos creado un Buffer infinito.
 
 Estado Actual
 
 En estos momentos nuestro proyecto se encuentra en fase de desarrollo, hemos logrado avances notables en comparación a hace una semana cuando iniciamos nuestro programa.
 Debemos terminar de pulir los aspectos mencionados en el apartado anterior. Otro aspecto que hemos logrado mejorar ha sido el de la organización de nuestra carga de trabajo. Implementando tecnologías de repositorios como Git y Github hemos logrado mejorar la fase de desarrollo y poder trabajar cada uno en diferentes frentes.
+Actualmente el programa muestra una lista de permutaciones de ciudades junto con su respectiva distancia en unidades.
